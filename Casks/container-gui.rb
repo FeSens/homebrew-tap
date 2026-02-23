@@ -7,6 +7,7 @@ cask "container-gui" do
   desc "Native macOS GUI for Apple's container CLI"
   homepage "https://github.com/FeSens/container-gui"
 
+  depends_on formula: "container"
   depends_on macos: ">= :sequoia"
   depends_on arch: :arm64
 
